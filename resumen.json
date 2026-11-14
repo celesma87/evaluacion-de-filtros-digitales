@@ -1,0 +1,29 @@
+{
+  "frecuencia_muestreo_Hz": 1000.0,
+  "duracion_s": 12.0,
+  "semilla": 13112026,
+  "SNR_entrada_dB": 6.044394002933982,
+  "metricas": [
+    {
+      "filtro": "Pasa bajos Butterworth",
+      "RMS_salida": 0.3600348298806243,
+      "SNR_dB": 7.582857155537472,
+      "mejora_SNR_dB": 1.53846315260349,
+      "RMSE": 0.1490580150761984
+    },
+    {
+      "filtro": "Pasa altos Chebyshev II",
+      "RMS_salida": 0.15229913572453163,
+      "SNR_dB": -0.3337375127438177,
+      "mejora_SNR_dB": -6.3781315156778,
+      "RMSE": 0.3708387146244851
+    },
+    {
+      "filtro": "Pasa bandas FIR Kaiser",
+      "RMS_salida": 0.35924982681204737,
+      "SNR_dB": 16.491933402438633,
+      "mejora_SNR_dB": 10.44753939950465,
+      "RMSE": 0.05344431577166147
+    }
+  ]
+}
